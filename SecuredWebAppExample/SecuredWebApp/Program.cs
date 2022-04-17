@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace MvcWebApp
+namespace SecuredWebApp
 {
     public class Program
     {

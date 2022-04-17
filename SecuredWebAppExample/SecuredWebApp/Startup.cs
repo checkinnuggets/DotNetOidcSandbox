@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace MvcWebApp
+namespace SecuredWebApp
 {
     // Based on:
     //  https://identityserver4.readthedocs.io/en/latest/quickstarts/2_interactive_aspnetcore.html

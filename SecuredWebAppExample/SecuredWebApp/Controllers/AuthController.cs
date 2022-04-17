@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace MvcWebApp.Controllers
+namespace SecuredWebApp.Controllers
 {
     public class AuthController : Controller
     {
