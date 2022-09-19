@@ -16,7 +16,7 @@ namespace IdP
         public static IEnumerable<ApiScope> ApiScopes =>
             new List<ApiScope>
             {
-                new ApiScope("greeting", "Weather Forecast")
+                new ApiScope("greeting", "Greeting")
             };
 
         public static IEnumerable<Client> Clients =>

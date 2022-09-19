@@ -25,7 +25,7 @@ namespace SecuredApi
             services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
                 {
-                    options.Authority = "https://localhost:44399";
+                    options.Authority = "https://localhost:44398";
 
                     options.TokenValidationParameters = new TokenValidationParameters
                     {

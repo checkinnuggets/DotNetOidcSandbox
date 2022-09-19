@@ -29,6 +29,7 @@ namespace IdP
                     ClientName = "JavaScript Client",
                     AllowedGrantTypes = GrantTypes.Code,
                     RequireClientSecret = false,
+                    RequirePkce = true,
 
                     RedirectUris =           { "https://localhost:44303/callback.html" },
                     PostLogoutRedirectUris = { "https://localhost:44303/index.html" },

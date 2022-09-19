@@ -27,7 +27,7 @@ document.getElementById("logout").addEventListener("click", logout, false);
     It requires similar configuration that was necessary in the MVC Client. 
 */
 var config = {
-    authority: "https://localhost:44399",
+    authority: "https://localhost:44398",
     client_id: "secured-spa-example",
     redirect_uri: "https://localhost:44303/callback.html",
     response_type: "code",

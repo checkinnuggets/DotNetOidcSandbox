@@ -31,16 +31,19 @@ namespace IdP
                 .AddInMemoryClients(Config.Clients)
                 .AddTestUsers(TestUsers.Users);
 
-            // Add Google as external auth provider
+            
             // See https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/google-logins
             services.AddAuthentication()
-                .AddGoogle("Google", options =>
-                {
-                    options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
-
-                    options.ClientId = "4625512716-6m9vofu2mqd05jvo88e0a4a3ih2irkh9.apps.googleusercontent.com";
-                    options.ClientSecret = "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";
-                });
+                // Optionally, add Google as external auth provider
+                //.AddGoogle("Google", options =>
+                //{
+                //    options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
+                //
+                //    // Setup at https://console.developers.google.com/
+                //    options.ClientId = "";
+                //    options.ClientSecret = "";
+                //})
+            ;
 
             // not recommended for production - you need to store your key material somewhere secure
             builder.AddDeveloperSigningCredential();

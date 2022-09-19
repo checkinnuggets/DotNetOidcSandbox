@@ -38,7 +38,7 @@ namespace SecuredWebApp
                 .AddOpenIdConnect("oidc", options =>
                 {
                     // configure the handler that performs the OpenID Connect protocol.
-                    options.Authority = "https://localhost:44399";      // where the trusted token service is located
+                    options.Authority = "https://localhost:44398";      // where the trusted token service is located
 
                     options.ClientId = "mvc";                           // identify this client to the server
                     options.ClientSecret = "secret";

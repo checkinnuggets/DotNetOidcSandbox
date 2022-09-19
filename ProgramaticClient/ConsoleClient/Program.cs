@@ -1,7 +1,7 @@
-﻿using IdentityModel.Client;
-using System;
+﻿using System;
 using System.Net.Http;
 using System.Threading.Tasks;
+using IdentityModel.Client;
 
 namespace Client
 {
@@ -9,7 +9,7 @@ namespace Client
     {
 
         // Url of the identity provider - in this case, IdentityServer
-        private const string Idp = "https://localhost:44399";
+        private const string Idp = "https://localhost:44398";
         
         // Client ID and Secret are owned by the IDP
         private const string ClientId = "test-api-client";
